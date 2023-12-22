@@ -23,7 +23,7 @@ LiquidCrystal lcd(
 int game_mode = 0;
 
 static unsigned long last_interrupt_time = 0;
-int debounce = 100; // milliseconds
+int debounce = 200; // milliseconds
 
 volatile int yellow_button_pressed;
 volatile int red_button_pressed;
