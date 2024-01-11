@@ -40,7 +40,7 @@ int tetromino;
 int rotation_index;
 
 // x, y coordinates of tetromino
-int x,y;
+int x, y;
 
 // width, height of tetromino
 int width, height;
